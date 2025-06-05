@@ -1,23 +1,28 @@
-## Game Features
+## ゲーム概要
 
-• **Title**: Attack15
-• **Main Menu**: Contains start and exit buttons
-• **Game Mechanics**:
-  • 9 panels with random numbers from 1-9
-  • Select 2+ panels to make a sum of 15
-  • Selected panels can be deselected
-  • When sum equals 15, panels are removed and replaced with new ones
-  • Each panel resets after 15 seconds
-  • Game time limit is 60 seconds
+**Attack15**は、プレイヤーは数字1〜9のパネルを選んで、合計がちょうど15になるようにするゲームです。
+各パネルは15秒後にリセットされます。
+ゲーム時間は1分間です。
 
-• **Scoring System**:
-  • +15 points when you make a sum of 15
-  • -10 points when a panel resets
+## 説明
 
-## How to Play
+1. メインメニュー
+- ゲームを開始する「スタート」ボタン
+- アプリケーションを終了する「終了」ボタン
 
-1. Open the index.html file in your browser
-2. Click "スタート" to begin the game
-3. Click on panels to select/deselect them
-4. Try to make combinations that sum to 15
-5. Score as many points as possible before time runs out
+1. ゲーム画面
+- 3x3のグリッドにランダムな数字（1〜9）が配置された9つのパネルがあります。
+- パネルをクリックして選択/選択解除します。
+- 選択されたパネルの合計が15になると、新しいランダムな数字に置き換えられます。
+- 各パネルには15秒のタイマーがあり、時間が経過するとリセットされます。
+
+1. スコアリングシステム
+- パネルの合計が15になりクリアされると **+15点**
+- パネルの有効期限が切れてリセットされると **-10点**
+
+## ゲームの実行方法
+
+```bash
+// index.htmlを開きます。
+$ open index.html
+```
